@@ -1,0 +1,19 @@
+{
+  "name": "sensio-backup-data",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cloudinary": "^2.8.0",
+    "dotenv": "^17.2.3",
+    "node-cron": "^4.2.1",
+    "nodemailer": "^7.0.12"
+  }
+}
